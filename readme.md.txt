@@ -25,11 +25,6 @@ Before running the code, ensure you have the following dependencies installed:
 
 You can install the required packages using pip:
 
-```bash
-pip install torch torchvision numpy matplotlib
-```
-````
-
 ## Including Required Lines
 
 #### Ensure to include the following lines at the beginning of your Python scripts or Jupyter Notebooks:
@@ -54,13 +49,10 @@ from torch.utils.data import random_split
 
 ## Description
 
-- `1`: Contains basic PyTorch examples.
-- `2`: Contains linear regression implementation using PyTorch.
-- `3`: Contains a single-layer neural network (linear regression) for identifying handwritten digits.
-- `4`:
-  - Contains code for creating a two-layer neural network.
-  - Demonstrates how to utilize GPU for training.
-
-```
-
-```
+- 1 contain pytorch basic
+- 2 contain liner regression implementing using pytorch
+- 3 contain use one layer neural network(linear regression) to identify hand written digits
+- 4
+  - contain how to create two layer nural network
+  - how to use GPU for training
+````
