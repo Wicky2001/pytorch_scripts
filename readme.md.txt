@@ -25,10 +25,6 @@ Before running the code, ensure you have the following dependencies installed:
 
 You can install the required packages using pip:
 
-```bash
-pip install torch torchvision numpy matplotlib
-```
-
 ## Including Required Lines
 
 #### Ensure to include the following lines at the beginning of your Python scripts or Jupyter Notebooks:
@@ -51,13 +47,12 @@ from torch.utils.data import random_split
 
 **Note:** Make sure to include `%matplotlib inline` in your Jupyter Notebook or JupyterLab environment to display matplotlib plots inline without calling `plt.show()` explicitly.
 
-## Contributing
+## Description
 
-Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-This README.md now includes the required lines at the beginning of the Python script or Jupyter Notebook, along with an explanation of the purpose of `%matplotlib inline`.
+- 1 contain pytorch basic
+- 2 contain liner regression implementing using pytorch
+- 3 contain use one layer neural network(linear regression) to identify hand written digits
+- 4
+  - contain how to create two layer nural network
+  - how to use GPU for training
+````
